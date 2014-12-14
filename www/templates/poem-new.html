@@ -1,0 +1,15 @@
+<ion-modal-view ng-controller="NewPoemCtrl">
+  <ion-content>
+    <form ng-submit="createPoem()">
+      <div class="list">
+        <label class="item item-input">
+          <input type='text' ng-model="poem.title" placeholder="Untitled">
+        </label>
+        <composer field="poem.body"></composer>
+      </div>
+    </form>
+  </ion-content>
+  <div class="bar bar-footer bar-balanced">
+    <div class="title" wz-next><i class='icon ion-close-round'></i> Next <i class='icon ion-arrow-right-c'></i></div>
+  </div>
+</ion-modal-view>

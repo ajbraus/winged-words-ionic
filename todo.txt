@@ -1,0 +1,6 @@
+detect lines and see them numbered on the left
+detect words
+detect syllables in lines
+http://jsfiddle.net/tq3zzhna/3/
+
+detect rhymes & stresses and color iambs and rhymes

@@ -1,0 +1,14 @@
+<ion-view title="Winged Words">
+  <ion-nav-buttons side="right">
+    <button class='button button-icon' ng-click="newPoem()">
+      <i class="icon ion-ios7-navigate-outline"></i>
+    </button>
+  </ion-nav-buttons>
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="poem in poems" type="item-text-wrap" href="#/tab/dash/{{poem.id}}">
+        {{poem.body}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

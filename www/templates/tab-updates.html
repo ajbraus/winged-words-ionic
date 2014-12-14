@@ -1,0 +1,9 @@
+<ion-view title="Updates">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="update in updates" type="item-text-wrap" href="#/tab/updates/{{update.poem.id}}">
+        {{update.user.name}} {{update.content}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
