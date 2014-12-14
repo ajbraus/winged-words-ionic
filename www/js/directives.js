@@ -37,6 +37,45 @@ angular.module('wingedwords.directives', ['wingedwords.services'])
           // // console.log(lineArray.join(" "))
           // $('#poemText').html(poemFormatted); //output formatted poem
 
+          // function countWordSyllables(word) {
+          //   word = word.toLowerCase();
+          //   if(word.length <= 3) { return 1; }
+          //   word = word.replace(/(?:[^laeiouy]es|ed|[^laeiouy]e)$/, '');
+          //   word = word.replace(/^y/, '');
+          //   if (word.match(/[aeiouy]{1,2}/g).length) {
+          //     return word.match(/[aeiouy]{1,2}/g).length;  
+          //   }
+          // }
+
+          // function lineSyllablesCount(line) {
+          //   var line = line.split(/\s+/);
+          //   var totalSyllables = 0
+          //   line.forEach(function(word) { //count sylables per word
+          //     if (word.length > 0) {
+          //       totalSyllables += countWordSyllables(word) // add up syllables to count per line  
+          //     }
+          //   });
+          //   return totalSyllables
+          // }
+
+          // function countLineIndexSyllables(line, index) {
+          //   var line = line.split(/\s+/);
+          //   var totalSyllables = 0
+          //   line.forEach(function(word) { //count sylables per word
+          //     if (word.length > 0) {
+          //       totalSyllables += countWordSyllables(word) // add up syllables to count per line  
+          //     }
+          //   });
+          //   if (totalSyllables == 5) { //style lines with 5 or 7 syllables
+          //     console.log(index)
+          //     $('#poem div:nth-child(' + index + ')').css('color', 'blue');
+          //   } else if (totalSyllables == 7) {
+          //     $('#poem div:nth-child(' + index + ')').css('color', 'green');
+          //   } else if (totalSyllables == 10) {
+          //     $('#poem div:nth-child(' + index + ')').css('color', 'gold');
+          //   } 
+          // }
+
           //----- TEXTAREA --------//
 
           // $scope.arrayOfLines = [
